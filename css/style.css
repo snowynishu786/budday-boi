@@ -1,0 +1,980 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+    @font-face {
+        font-family: Avocado_Creamy;
+        src: url(../Fonts/avocado_creamy/Avocado\ Creamy.ttf);
+    }
+
+    @font-face {
+        font-family: Kawaii_Stitch;
+        src: url(../Fonts/kawaii_stitch/Kawaii\ Stitch.ttf);
+    }
+
+body{
+    display: flex;
+    background: #BCBAB8;
+    width: 100%;
+    height: 100vh;
+}
+
+.budday{
+    background: #444444;
+    margin-left: 55%;
+    transform: translate(-50%);
+    margin-top: 7%;
+    border-radius: 2rem;
+    box-shadow: #cdf0ea 0px 0px 0px 3px inset, #f7dbf0 0px 0px 0px 6px inset, #aee1e1 0px 0px 0px 9px inset, #beaee2 0px 0px 0px 12px inset, #a33ee8 0px 0px 0px 15px inset;
+}
+
+.budday g #svg_10 {
+    animation: top 15s;
+}
+
+    @keyframes top{
+        0%{
+            transform: translate(200px, 10px);
+        }
+        5%{
+            transform: translate(30px, 10px);
+        }
+        10%{
+            transform: translate(-60px, 20px);
+        }
+        15%{
+            transform: translate(50px, -70px);
+        }
+        20%{
+            transform: translate(-30px, -40px);
+        }
+        25%{
+            transform: translate(-200px, 100px);
+        }
+        30%{
+            transform: translate(140px, -20px);
+        }
+        35%{
+            transform: translate(-150px, 50px);
+        }
+        40%{
+            transform: translate(-100px, 80px);
+        }
+        45%{
+            transform: translate(-180px, 45px);
+        }
+        50%{
+            transform: translate(100px, 200px);
+        }
+        55%{
+            transform: translate(60px, -60px);
+        }
+        60%{
+            transform: translate(-52px, -50px);
+        }
+        65%{
+            transform: translate(10px, 400px);
+        }
+        70%{
+            transform: translate(190px, -120px);
+        }
+        75%{
+            transform: translate(-50px, -100px);
+        }
+        80%{
+            transform: translate(200px, 300px);
+        }
+        85%{
+            transform: translate(-200px, 400px);
+        }
+        90%{
+            transform: translate(90px, 50px);
+        }
+        100%{
+            transform: translate(0px, 0px);
+        }
+    }
+
+.budday g #svg_4{
+    animation: hat 14.5s;
+}
+
+    @keyframes hat {
+        0%{
+            transform: translate(-200px, -10px);
+        }
+        5%{
+            transform: translate(60px, 90px);
+            animation-delay: 1s;
+        }
+        10%{
+            transform: translate(60px, -20px);
+            animation-delay: 1s;
+        }
+        15%{
+            transform: translate(-150px, 70px) rotate(30deg);
+            animation-delay: 1s;
+        }
+        20%{
+            transform: translate(100px, 200px) rotate(40deg);
+            animation-delay: 1s;
+        }
+        25%{
+            transform: translate(50px, 60px) rotate(50deg);
+            animation-delay: 1s;
+        }
+        30%{
+            transform: translate(90px, 140px) rotate(30deg);
+            animation-delay: 1s;
+        }
+        35%{
+            transform: translate(79px, 150px) rotate(-30deg);
+            animation-delay: 1s;
+        }
+        40%{
+            transform: translate(190px, 30px) rotate(5deg);
+            animation-delay: 1s;
+        }
+        45%{
+            transform: translate(75px, 145px) rotate(35deg);
+            animation-delay: 1s;
+        }
+        50%{
+            transform: translate(-45px, 70px) rotate(14deg);
+            animation-delay: 1s;
+        }
+        55%{
+            transform: translate(30px, 10px) rotate(-40deg);
+            animation-delay: 1s;
+        }
+        60%{
+            transform: translate(-70px, -50px) rotate(-5deg);
+            animation-delay: 1s;
+        }
+        65%{
+            transform: translate(98px, -76px) rotate(76deg);
+            animation-delay: 1s;
+        }
+        70%{
+            transform: translate(35px, 29px) rotate(20deg);
+            animation-delay: 1s;
+        }
+        75%{
+            transform: translate(59px, 100px);
+        }
+        80%{
+            transform: translate(20px, -30px);
+        }
+        85%{
+            transform: translate(-180px, 34px);
+        }
+        90%{
+            transform: translate(9px, 150px);
+        }
+        100%{
+            transform: translate(0px, 0px);
+        }
+    }
+
+
+.budday g #svg_16{
+    animation: head 14s;
+}
+
+    @keyframes head{
+        0%{
+            transform: translate(-200px, 10px);
+        }
+        5%{
+            transform: translate(-59px, 90px);
+            animation-delay: 1s;
+        }
+        10%{
+            transform: translate(100px, 200px);
+            animation-delay: 1s;
+        }
+        15%{
+            transform: translate(-50px, -50px) rotate(10deg);
+            animation-delay: 1s;
+        }
+        20%{
+            transform: translate(5px, 20px) rotate(-10deg);
+            animation-delay: 1s;
+        }
+        25%{
+            transform: translate(100px, 0px) rotate(25deg);
+            animation-delay: 1s;
+        }
+        30%{
+            transform: translate(-90px, 100px) rotate(-50deg);
+            animation-delay: 1s;
+        }
+        35%{
+            transform: translate(0px, 56px) rotate(10deg);
+            animation-delay: 1s;
+        }
+        40%{
+            transform: translate(-50px, 100px) rotate(-5deg);
+            animation-delay: 1s;
+        }
+        45%{
+            transform: translate(16px, -145px) rotate(0deg);
+            animation-delay: 1s;
+        }
+        50%{
+            transform: translate(76px, 120px) rotate(40deg);
+            animation-delay: 1s;
+        }
+        55%{
+            transform: translate(0px, -100px) rotate(25deg);
+            animation-delay: 1s;
+        }
+        60%{
+            transform: translate(100px, 50px) rotate(0deg);
+            animation-delay: 1s;
+        }
+        65%{
+            transform: translate(-50px, -76px) rotate(0deg);
+            animation-delay: 1s;
+        }
+        70%{
+            transform: translate(180px, -29px) rotate(5deg);
+            animation-delay: 1s;
+        }
+        75%{
+            transform: translate(36px, -10px);
+        }
+        80%{
+            transform: translate(-70px, 10px);
+        }
+        85%{
+            transform: translate(40px, -90px);
+        }
+        90%{
+            transform: translate(-200px, 0px);
+        }
+        100%{
+            transform: translate(0px, 0px);
+        }
+    }
+
+
+
+.budday g #svg_13{
+    animation: neck 13.5s;
+}
+
+    @keyframes neck{
+        0%{
+            transform: translate(200px, 100px);
+        }
+        5%{
+            transform: translate(100px, -90px);
+            animation-delay: 2s;
+        }
+        10%{
+            transform: translate(0px, 250px);
+            animation-delay: 1s;
+        }
+        15%{
+            transform: translate(50px, 50px) rotate(7deg);
+            animation-delay: 1s;
+        }
+        20%{
+            transform: translate(305px, 250px) rotate(10deg);
+            animation-delay: 1s;
+        }
+        25%{
+            transform: translate(-100px, 100px) rotate(-5deg);
+            animation-delay: 1s;
+        }
+        30%{
+            transform: translate(0px, 250px) rotate(0deg);
+            animation-delay: 1s;
+        }
+        35%{
+            transform: translate(-80px, -56px) rotate(-19deg);
+            animation-delay: 1s;
+        }
+        40%{
+            transform: translate(150px, -100px) rotate(35deg);
+            animation-delay: 1s;
+        }
+        45%{
+            transform: translate(160px, 145px) rotate(-68deg);
+            animation-delay: 1s;
+        }
+        50%{
+            transform: translate(76px, 120px) rotate(40deg);
+            animation-delay: 1s;
+        }
+        55%{
+            transform: translate(300px, 240px) rotate(-5deg);
+            animation-delay: 1s;
+        }
+        60%{
+            transform: translate(-100px, 50px) rotate(10deg);
+            animation-delay: 1s;
+        }
+        65%{
+            transform: translate(0px, -76px) rotate(0deg);
+            animation-delay: 1s;
+        }
+        70%{
+            transform: translate(180px, 0px) rotate(5deg);
+            animation-delay: 1s;
+        }
+        75%{
+            transform: translate(200px, -150px);
+        }
+        80%{
+            transform: translate(70px, -10px);
+        }
+        85%{
+            transform: translate(45px, 0px);
+        }
+        90%{
+            transform: translate(200px, 29px);
+        }
+        100%{
+            transform: translate(0px, 0px);
+        }
+    }
+
+
+
+.budday g #svg_25{
+    animation: wing1 13s;
+}
+
+    @keyframes wing1{
+        0%{
+            transform: translate(59px, -90px);
+        }
+        5%{
+            transform: translate(30px, -40px);
+            animation-delay: 2s;
+        }
+        10%{
+            transform: translate(-90px, -50px);
+            animation-delay: 1s;
+        }
+        15%{
+            transform: translate(79px, -150px) rotate(-4deg);
+            animation-delay: 1s;
+        }
+        20%{
+            transform: translate(10px, -56px) rotate(15deg);
+            animation-delay: 1s;
+        }
+        25%{
+            transform: translate(-50px, -176px) rotate(15deg);
+            animation-delay: 1s;
+        }
+        30%{
+            transform: translate(10px, -30px) rotate(-50deg);
+            animation-delay: 1s;
+        }
+        35%{
+            transform: translate(-30px, -100px) rotate(0deg);
+            animation-delay: 1s;
+        }
+        40%{
+            transform: translate(100px, 70px) rotate(-5deg);
+            animation-delay: 1s;
+        }
+        45%{
+            transform: translate(-160px, -145px) rotate(-68deg);
+            animation-delay: 1s;
+        }
+        50%{
+            transform: translate(150px, 76px) rotate(25deg);
+            animation-delay: 1s;
+        }
+        55%{
+            transform: translate(-60px, -120px) rotate(-45deg);
+            animation-delay: 1s;
+        }
+        60%{
+            transform: translate(50px, 100px) rotate(15deg);
+            animation-delay: 1s;
+        }
+        65%{
+            transform: translate(230px, 176px) rotate(-10deg);
+            animation-delay: 1s;
+        }
+        70%{
+            transform: translate(20px, -175px) rotate(-20deg);
+            animation-delay: 1s;
+        }
+        75%{
+            transform: translate(-180px, -100px);
+        }
+        80%{
+            transform: translate(19px, -150px);
+        }
+        85%{
+            transform: translate(52px, -5px);
+        }
+        90%{
+            transform: translate(49px, 100px);
+        }
+        100%{
+            transform: translate(0px, 0px);
+        }
+    }
+
+
+
+
+.budday g #svg_28{
+    animation: wing2 12.5s;
+}
+
+    @keyframes wing2{
+        0%{
+            transform: translate(-159px, -90px);
+        }
+        5%{
+            transform: translate(30px, 140px);
+            animation-delay: 2s;
+        }
+        10%{
+            transform: translate(-90px, 50px);
+            animation-delay: 1s;
+        }
+        15%{
+            transform: translate(79px, -150px) rotate(90deg);
+            animation-delay: 1s;
+        }
+        20%{
+            transform: translate(0px, -156px) rotate(-30deg);
+            animation-delay: 1s;
+        }
+        25%{
+            transform: translate(50px, -276px) rotate(40deg);
+            animation-delay: 1s;
+        }
+        30%{
+            transform: translate(-190px, 30px) rotate(-15deg);
+            animation-delay: 1s;
+        }
+        35%{
+            transform: translate(30px, -160px) rotate(40deg);
+            animation-delay: 1s;
+        }
+        40%{
+            transform: translate(120px, 90px) rotate(-25deg);
+            animation-delay: 1s;
+        }
+        45%{
+            transform: translate(10px, 15px) rotate(68deg);
+            animation-delay: 1s;
+        }
+        50%{
+            transform: translate(-50px, 76px) rotate(40deg);
+            animation-delay: 1s;
+        }
+        55%{
+            transform: translate(60px, -220px) rotate(12deg);
+            animation-delay: 1s;
+        }
+        60%{
+            transform: translate(-50px, -163px) rotate(25deg);
+            animation-delay: 1s;
+        }
+        65%{
+            transform: translate(-20px, 76px) rotate(30deg);
+            animation-delay: 1s;
+        }
+        70%{
+            transform: translate(-90px, -100px) rotate(52deg);
+            animation-delay: 1s;
+        }
+        75%{
+            transform: translate(200px, -130px);
+        }
+        80%{
+            transform: translate(-9px, -150px);
+        }
+        85%{
+            transform: translate(52px, 150px);
+        }
+        90%{
+            transform: translate(60px, -100px);
+        }
+        100%{
+            transform: translate(0px, 0px);
+        }
+    }
+
+
+
+
+
+.budday g #svg_34{
+    animation: heart 12s;
+}
+
+    @keyframes heart{
+        0%{
+            transform: translate(-59px, 90px);
+        }
+        5%{
+            transform: translate(-30px, -40px);
+            animation-delay: 2s;
+        }
+        10%{
+            transform: translate(90px, 50px);
+            animation-delay: 1s;
+        }
+        15%{
+            transform: translate(79px, 150px) rotate(-30deg);
+            animation-delay: 1s;
+        }
+        20%{
+            transform: translate(0px, 56px) rotate(10deg);
+            animation-delay: 1s;
+        }
+        25%{
+            transform: translate(-50px, -76px) rotate(0deg);
+            animation-delay: 1s;
+        }
+        30%{
+            transform: translate(190px, 30px) rotate(5deg);
+            animation-delay: 1s;
+        }
+        35%{
+            transform: translate(30px, 10px) rotate(-40deg);
+            animation-delay: 1s;
+        }
+        40%{
+            transform: translate(100px, 0px) rotate(25deg);
+            animation-delay: 1s;
+        }
+        45%{
+            transform: translate(160px, 145px) rotate(-68deg);
+            animation-delay: 1s;
+        }
+        50%{
+            transform: translate(-50px, -76px) rotate(0deg);
+            animation-delay: 1s;
+        }
+        55%{
+            transform: translate(-60px, 20px) rotate(-5deg);
+            animation-delay: 1s;
+        }
+        60%{
+            transform: translate(-50px, 100px) rotate(-5deg);
+            animation-delay: 1s;
+        }
+        65%{
+            transform: translate(0px, -76px) rotate(0deg);
+            animation-delay: 1s;
+        }
+        70%{
+            transform: translate(-90px, 100px) rotate(-50deg);
+            animation-delay: 1s;
+        }
+        75%{
+            transform: translate(-200px, 100px);
+        }
+        80%{
+            transform: translate(9px, 150px);
+        }
+        85%{
+            transform: translate(-52px, -50px);
+        }
+        90%{
+            transform: translate(0px, -100px);
+        }
+        100%{
+            transform: translate(0px, 0px);
+        }
+    }
+
+
+
+
+
+.budday g #svg_31{
+    animation: stomach 11.5s;
+}
+
+    @keyframes stomach{
+        0%{
+            transform: translate(59px, -90px);
+        }
+        5%{
+            transform: translate(30px, 40px);
+            animation-delay: 2s;
+        }
+        10%{
+            transform: translate(-90px, 50px);
+            animation-delay: 1s;
+        }
+        15%{
+            transform: translate(-79px, -150px) rotate(30deg);
+            animation-delay: 1s;
+        }
+        20%{
+            transform: translate(0px, -56px) rotate(-10deg);
+            animation-delay: 1s;
+        }
+        25%{
+            transform: translate(50px, -76px) rotate(5deg);
+            animation-delay: 1s;
+        }
+        30%{
+            transform: translate(-190px, 30px) rotate(-5deg);
+            animation-delay: 1s;
+        }
+        35%{
+            transform: translate(-30px, 10px) rotate(40deg);
+            animation-delay: 1s;
+        }
+        40%{
+            transform: translate(-100px, 0px) rotate(-25deg);
+            animation-delay: 1s;
+        }
+        45%{
+            transform: translate(160px, -145px) rotate(68deg);
+            animation-delay: 1s;
+        }
+        50%{
+            transform: translate(-50px, 76px) rotate(20deg);
+            animation-delay: 1s;
+        }
+        55%{
+            transform: translate(60px, -20px) rotate(50deg);
+            animation-delay: 1s;
+        }
+        60%{
+            transform: translate(50px, -100px) rotate(15deg);
+            animation-delay: 1s;
+        }
+        65%{
+            transform: translate(0px, 76px) rotate(10deg);
+            animation-delay: 1s;
+        }
+        70%{
+            transform: translate(90px, -100px) rotate(45deg);
+            animation-delay: 1s;
+        }
+        75%{
+            transform: translate(200px, -100px);
+        }
+        80%{
+            transform: translate(9px, -150px);
+        }
+        85%{
+            transform: translate(52px, -50px);
+        }
+        90%{
+            transform: translate(0px, 100px);
+        }
+        100%{
+            transform: translate(0px, 0px);
+        }
+    }
+
+
+
+
+.budday g #svg_22{
+    animation: leg1 11s;
+}
+
+    @keyframes leg1{
+        0%{
+            transform: translate(200px, -109px);
+        }
+        5%{
+            transform: translate(-100px, -90px);
+            animation-delay: 2s;
+        }
+        10%{
+            transform: translate(0px, -250px);
+            animation-delay: 1s;
+        }
+        15%{
+            transform: translate(-50px, 50px) rotate(-7deg);
+            animation-delay: 1s;
+        }
+        20%{
+            transform: translate(305px, -250px) rotate(15deg);
+            animation-delay: 1s;
+        }
+        25%{
+            transform: translate(-100px, -100px) rotate(15deg);
+            animation-delay: 1s;
+        }
+        30%{
+            transform: translate(0px, -250px) rotate(5deg);
+            animation-delay: 1s;
+        }
+        35%{
+            transform: translate(80px, 56px) rotate(19deg);
+            animation-delay: 1s;
+        }
+        40%{
+            transform: translate(-150px, 100px) rotate(-35deg);
+            animation-delay: 1s;
+        }
+        45%{
+            transform: translate(160px, -145px) rotate(68deg);
+            animation-delay: 1s;
+        }
+        50%{
+            transform: translate(76px, -120px) rotate(-40deg);
+            animation-delay: 1s;
+        }
+        55%{
+            transform: translate(300px, -240px) rotate(15deg);
+            animation-delay: 1s;
+        }
+        60%{
+            transform: translate(100px, 50px) rotate(-10deg);
+            animation-delay: 1s;
+        }
+        65%{
+            transform: translate(0px, 76px) rotate(30deg);
+            animation-delay: 1s;
+        }
+        70%{
+            transform: translate(-180px, 0px) rotate(15deg);
+            animation-delay: 1s;
+        }
+        75%{
+            transform: translate(-200px, 150px);
+        }
+        80%{
+            transform: translate(-70px, 10px);
+        }
+        85%{
+            transform: translate(-45px, 0px);
+        }
+        90%{
+            transform: translate(200px, -29px);
+        }
+        100%{
+            transform: translate(0px, 0px);
+        }
+    }
+
+
+
+
+.budday g #svg_19{
+    animation: leg2 10.5s;
+}
+
+    @keyframes leg2{
+        0%{
+            transform: translate(200px, -10px);
+        }
+        5%{
+            transform: translate(-30px, 10px);
+        }
+        10%{
+            transform: translate(60px, 20px);
+        }
+        15%{
+            transform: translate(50px, 70px);
+        }
+        20%{
+            transform: translate(30px, -40px);
+        }
+        25%{
+            transform: translate(200px, -100px);
+        }
+        30%{
+            transform: translate(-140px, 20px);
+        }
+        35%{
+            transform: translate(150px, 50px);
+        }
+        40%{
+            transform: translate(100px, -80px);
+        }
+        45%{
+            transform: translate(180px, 45px);
+        }
+        50%{
+            transform: translate(100px, -200px);
+        }
+        55%{
+            transform: translate(60px, 60px);
+        }
+        60%{
+            transform: translate(52px, -50px);
+        }
+        65%{
+            transform: translate(10px, -210px);
+        }
+        70%{
+            transform: translate(-190px, 120px);
+        }
+        75%{
+            transform: translate(-50px, 100px);
+        }
+        80%{
+            transform: translate(-200px, 300px);
+        }
+        85%{
+            transform: translate(200px, -20px);
+        }
+        90%{
+            transform: translate(90px, -50px);
+        }
+        100%{
+            transform: translate(0px, 0px);
+        }
+    }
+
+
+
+.circle{
+    margin-left: 54%;
+    transform: translate(-50%);
+    margin-top: -48%;
+}
+
+.move{
+    visibility: hidden;
+    animation: pop1 3s;
+    animation-delay: 15.5s;
+}
+
+    @keyframes pop1{
+        0%{
+            cx: 320;
+            cy: 320;
+            r: 20;
+            visibility: inherit;
+        }
+    }
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .budday{
+        margin-left: 49.5%;
+    }
+    .circle{
+        margin-top: -96%;
+        margin-left: 48%;
+    }
+}
+
+@media screen and (max-width: 417px) {
+    .budday{
+        margin-left: 49.5%;
+    }
+    .circle{
+        margin-top: -96%;
+        margin-left: 48%;
+    }
+}
+
+  @-webkit-keyframes in {
+    0% { -webkit-transform: scale(0) rotate(90deg); opacity: 0; visibility: hidden;  }
+    100% { -webkit-transform: scale(1) rotate(0); opacity: 1; visibility: visible; }
+  }
+  
+  @keyframes in {
+    0% { transform: scale(0) rotate(90deg); opacity: 0; visibility: hidden;  }
+    100% { transform: scale(1) rotate(0); opacity: 1; visibility: visible; }
+  }
+  
+  @-webkit-keyframes out {
+    0% { -webkit-transform: scale(1) rotate(0); opacity: 1; visibility: visible; }
+    100% { -webkit-transform: scale(0) rotate(-90deg); opacity: 0; visibility: hidden; }
+  }
+  
+  @keyframes out {
+    0% { transform: scale(1) rotate(0); opacity: 1; visibility: visible; }
+    100% { transform: scale(0) rotate(-90deg); opacity: 0; visibility: hidden;  }
+  }
+
+#show:before{
+    content:'';
+    position:absolute;
+    width:130%;
+    height:50%;
+    top:-15%;
+    right:-5%;
+    background:rgba(255,255,255,0.3);
+    background:
+        linear-gradient(
+        top,
+        rgba(255,255,255,0.1),
+        rgba(255,255,255,0.3)
+        );
+    ;
+    transform:rotate(10deg);
+    border-bottom-left-radius:200px 20px;
+    border-bottom-right-radius: 200px 10px;
+    border-top-right-radius:5px 100px;
+}
+
+#show{
+    width: 18rem;
+    height: 10rem;
+    margin-left: 24%;
+    margin-top: 4%;
+    background: #D597CE;
+    position: absolute;
+    z-index: 2;
+    border-radius: 2rem;
+    text-align: center;
+    transition: 1s;
+    font-family: Dancing Script, 'cursive';
+    font-size: 1.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    overflow: hidden;
+}
+
+#show.show {
+    -webkit-animation: in 700ms ease both;
+    animation: in 1000ms ease both;
+    visibility: visible;
+  }
+  
+#show.hide {
+    -webkit-animation: out 700ms ease both;
+    animation: out 1000ms ease both;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+
+#show p{
+    margin-top: 14%;
+    font-family: Avocado_Creamy;
+    transition: .2s .4s;
+}
+
+#show p:hover{
+    transform: translateY(120px);
+}
+
+#show p span{
+    font-family: Kawaii_Stitch;
+}
+
+.dot1{
+    color: #cdf0ea;
+}
+
+.dot2{
+    color: #f7dbf0;
+}
+
+.dot3{
+    color: #beaee2;
+}
+
+.dot4{
+    color: #aee1e1;
+}
